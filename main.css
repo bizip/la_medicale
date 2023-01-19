@@ -16,6 +16,7 @@ body {
   box-sizing: border-box;
   line-height: 1.7;
   color: #777;
+  font-size: 1.6rem;
 }
 
 .logo {
@@ -146,3 +147,33 @@ body {
     transform: translate(0);
   }
 } 
+
+.abt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus {
+  padding: 4rem;
+  width: 60%;
+}
+
+.mission {
+  display: flex;
+  min-width: 30rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  width: 40rem;
+  max-width: 30%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card1 ul li {
+  list-style: none;
+}
