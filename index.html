@@ -12,30 +12,19 @@
 </head>
 
 <body>
-    <!-- <nav>
-        <div class="nav__data">
-            <a href="#" class="nav__logo">Clinique</a>
-            <div class="nav__mob-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
-            </div>
-        </div>
-        
-    </nav> -->
-
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand d-none d-sm-block" href="#">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand d-sm-block" href="#">
                 <img src="./img/logo.png" class="logo" alt="Polyclinique La Medicale">
             </a>
-            <a class="navbar-brand d-block d-sm-none" href="#">Polyclinique La Medicale</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto" id="navbarNav1">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About Us</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
@@ -396,10 +385,18 @@
             <div class='cont__map'>
                 <h1 class='heading-secondary'>Our contact address</h1>
                 <ul>
-                    <li class='icon'><span> <FaRegHospital /></span>Polyclinique La Medicale</li>
-                    <li class='icon'><span> <GrMapLocation /></span> Kigali, Rwanda </li>
-                    <li class='icon'><span> <BsFillTelephoneForwardFill /></span> +250 (0) 555-5555</li>
-                    <li class='icon'><span> <MdOutlineMarkEmailRead /></span>info@polycliniquelamedicale.rw   </li>
+                    <li class='icon'><span>
+                            <FaRegHospital />
+                        </span>Polyclinique La Medicale</li>
+                    <li class='icon'><span>
+                            <GrMapLocation />
+                        </span> Kigali, Rwanda </li>
+                    <li class='icon'><span>
+                            <BsFillTelephoneForwardFill />
+                        </span> +250 (0) 555-5555</li>
+                    <li class='icon'><span>
+                            <MdOutlineMarkEmailRead />
+                        </span>info@polycliniquelamedicale.rw </li>
                 </ul>
             </div>
 
@@ -410,7 +407,94 @@
                     <li class='icon'>Musanze</li>
                     <li class='icon'>Butare</li>
                     <li class='icon'>Kibungo</li>
-                    <li><DialogDemo /></li>
+                    <li>
+                        <!-- Button trigger modal -->
+<button type="button" id="force_bg" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+    View branches contact details
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="center_contact">
+                <div class="contact details" />
+                <div class='cont__map'>
+                    <h1 class='heading-secondary'>Kigali main branch</h1>
+                    <div class="branch__data">
+                        <ul>
+                            <li class='icon'><span> <FaRegHospital /></span>Polyclinique La Medicale</li>
+                            <li class='icon'><span> <GrMapLocation /></span> Kigali, Rwanda </li>
+                            <li class='icon'><span> <BsFillTelephoneForwardFill /></span> +250 (0) 555-5555</li>
+                            <li class='icon'><span> <MdOutlineMarkEmailRead /></span>info@polycliniquelamedicale.rw   </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class='cont__map'>
+                    <h1 class='heading-secondary'>Rubavu branch</h1>
+                    <div class="branch__data">
+
+                        <ul>
+                            <li class='icon'><span> <FaRegHospital /></span>Polyclinique La Medicale</li>
+                            <li class='icon'><span> <GrMapLocation /></span> Kigali, Rwanda </li>
+                            <li class='icon'><span> <BsFillTelephoneForwardFill /></span> +250 (0) 555-5555</li>
+                            <li class='icon'><span> <MdOutlineMarkEmailRead /></span>info@polycliniquelamedicale.rw   </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='cont__map'>
+                    <h1 class='heading-secondary'>Musanze branch</h1>
+                    <div class="branch__data">
+
+                        <ul>
+                            <li class='icon'><span> <FaRegHospital /></span>Polyclinique La Medicale</li>
+                            <li class='icon'><span> <GrMapLocation /></span> Kigali, Rwanda </li>
+                            <li class='icon'><span> <BsFillTelephoneForwardFill /></span> +250 (0) 555-5555</li>
+                            <li class='icon'><span> <MdOutlineMarkEmailRead /></span>info@polycliniquelamedicale.rw   </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='cont__map'>
+                    <h1 class='heading-secondary'>Huye branch</h1>
+                    <div class="branch__data">
+
+                        <ul>
+                            <li class='icon'><span> <FaRegHospital /></span>Polyclinique La Medicale</li>
+                            <li class='icon'><span> <GrMapLocation /></span> Kigali, Rwanda </li>
+                            <li class='icon'><span> <BsFillTelephoneForwardFill /></span> +250 (0) 555-5555</li>
+                            <li class='icon'><span> <MdOutlineMarkEmailRead /></span>info@polycliniquelamedicale.rw   </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class='cont__map'>
+                    <h1 class='heading-secondary'>Kibungo branch</h1>
+                    <div class="branch__data">
+
+                        <ul>
+                            <li class='icon'><span> <FaRegHospital /></span>Polyclinique La Medicale</li>
+                            <li class='icon'><span> <GrMapLocation /></span> Kigali, Rwanda </li>
+                            <li class='icon'><span> <BsFillTelephoneForwardFill /></span> +250 (0) 555-5555</li>
+                            <li class='icon'><span> <MdOutlineMarkEmailRead /></span>info@polycliniquelamedicale.rw   </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    </li>
                 </ul>
             </div>
 
@@ -418,17 +502,9 @@
         </div>
 
         <div class='map'>
-             <iframe 
-             width="600"
-             height="450"
-             class='frame'
-             frameborder="0"
-             style="border: 0"
-             allowfullscreen=""
-             aria-hidden="false"
-             tabindex="0"
-             src="https://www.google.com/maps/d/u/0/embed?mid=1wsEwl-YWTtpWLl79Yl6IYIzvuREriCU&ehbc=2E312F" 
-             ></iframe>
+            <iframe width="600" height="450" class='frame' frameborder="0" style="border: 0" allowfullscreen=""
+                aria-hidden="false" tabindex="0"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1wsEwl-YWTtpWLl79Yl6IYIzvuREriCU&ehbc=2E312F"></iframe>
         </div>
 
     </section>
@@ -436,16 +512,20 @@
     <footer class="footer_container">
         <div class="footer">
             <div class="row icon_list">
-                <a target="_blank" href='https://www.facebook.com/people/Polyclinique-La-Medicale/100063673103335/' class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+                <a target="_blank" href='https://www.facebook.com/people/Polyclinique-La-Medicale/100063673103335/'
+                    class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 24 24">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                    </svg></a>
             </div>
 
             <div class="row">
 
-                <Link class="mylink" to="about">About</Link>
-                <Link class="mylink" to="services">Services</Link>
-                <Link class="mylink" to="doctors">Doctors</Link>
-                <Link class="mylink" to="schedule">Schedule</Link>
-                <Link class="mylink" to="contact">Contact</Link>
+                <a class="mylink" href="#about">About</a>
+                <a class="mylink" href="#services">Services</a>
+                <a class="mylink" href="#doctors">Doctors</a>
+                <a class="mylink" href="#contact">Schedule</a>
+                <a class="mylink" href="#contact">Contact</a>
 
             </div>
 

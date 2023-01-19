@@ -1,19 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML CSS SASS JavaSript template project
+# POLYCLINIQUE LA MEDICALE (DR KANIMBA'S HOSPITAL
 
-> This is a portifolio project that was implemented from the figma design
+>Established in 1994, Polyclinique La Medicale provides a wide range of healthcare services to our patients. Our team of highly skilled and experienced doctors and medical staff are dedicated to providing the best possible care to our patients.
 
 # Link to live project
 
-## [Pascal portifolio](https://bizip.github.io/p-portifolio/)
+## [POLYCLINIQUE LA MEDICALE](https://bizip.github.io/la_medicale/)
 
 ## Built With
 
 - HTML5
 - CSS3
-- Sass
-- JavaScript
+- Bootstrap
 
 ## Getting Started
 

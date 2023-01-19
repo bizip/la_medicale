@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +22,17 @@ body {
 
 .logo {
   width: 8rem;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: centter;
+  font-size: 1rem;
+  top: 0;
+  z-index: 1800;
+  box-shadow: rgba(33, 35, 38, 0.1) 0 10px 10px -10px;
 }
 
 .nav-link {
@@ -69,11 +81,9 @@ body {
 .jumbotron1 {
   /* background: linear-gradient(rgba(0, 123, 255, 0.703), rgba(125, 250, 250, 0.45)), url(https://lh5.googleusercontent.com/p/AF1QipN6mv-R_L573OtJfk-fnpllcQajBYc9a8-v3Gm_=s1031-k-no);
    */
-   background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 123, 255,0.9),
-      rgba(40, 180, 133, 0.5)
-    ),
+  background-image: linear-gradient(to right bottom,
+      rgba(0, 123, 255, 0.9),
+      rgba(40, 180, 133, 0.5)),
     url("https://lh5.googleusercontent.com/p/AF1QipN6mv-R_L573OtJfk-fnpllcQajBYc9a8-v3Gm_=s1031-k-no");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -146,7 +156,7 @@ body {
     opacity: 1;
     transform: translate(0);
   }
-} 
+}
 
 .abt {
   width: 100%;
@@ -219,7 +229,7 @@ body {
 }
 
 .footer .row .mylink:hover {
-  color: rgb(30, 30, 30);
+  fill: rgb(30, 30, 30);
 }
 
 .footer .row ul {
@@ -254,7 +264,7 @@ body {
     text-align: left;
   }
 
-  .footer .row .mylink > * {
+  .footer .row .mylink>* {
     margin: 0% 3%;
   }
 }
@@ -282,8 +292,6 @@ h6 {
   font-weight: 700;
   color: #fff;
 }
-
-/* from original code  */
 
 .services:hover .overlay {
   opacity: 0.9;
@@ -335,12 +343,15 @@ h6 {
 
 .card-body {
   display: flex;
-  align-items: center; /* This centers the items along the cross axis */
-  justify-content: center; /* This centers the items along the main axis */
+  align-items: center;
+  /* This centers the items along the cross axis */
+  justify-content: center;
+  /* This centers the items along the main axis */
 }
 
 .about-us {
-  margin-bottom: 3rem; /* adjust this value as needed */
+  margin-bottom: 3rem;
+  /* adjust this value as needed */
 }
 
 table {
@@ -422,6 +433,21 @@ td {
 .ins__img img {
   width: 100%;
   object-fit: scale-down;
+}
+
+@media only screen and (max-width: 991px) {
+  #navbarNav1{
+    background-color: #fff !important;
+    z-index: 9000;
+    padding: 10% 0;
+    height: 100vh;
+    align-items: center;
+    font-size: 1.6rem;
+    }
+
+    .nav-item{
+      margin: 1rem 0;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -555,7 +581,7 @@ td {
   border-radius: 5rem;
 }
 
-.map > * {
+.map>* {
   width: 100%;
   border-radius: 5rem;
 }
@@ -578,3 +604,10 @@ td {
   justify-content: center;
   font-size: 1.5rem;
 }
+
+#force_bg{
+  font-size: 1.6rem;
+  background-color: #007bff;
+  padding: .5rem 1rem;
+}
+
