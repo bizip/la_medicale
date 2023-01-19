@@ -27,7 +27,7 @@ You need to have a basic knowledge about HTML and CSS
 
 #### clone this project (using git clone https://github.com/bizip/hello-world.git) to your local computer and use telminal to navigate into the parent directory of this project.
 
-### Install
+### Install it is optional
 
 #### Run npm install
 
