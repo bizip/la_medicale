@@ -4,7 +4,11 @@
 
 # Link to live project
 
-## [POLYCLINIQUE LA MEDICALE](https://bizip.github.io/la_medicale/)
+### [POLYCLINIQUE LA MEDICALE](https://bizip.github.io/la_medicale/)
+
+# Link to source code
+
+### [POLYCLINIQUE LA MEDICALE](https://github.com/bizip/la_medicale.git)
 
 ## Built With
 
@@ -23,15 +27,15 @@ You need to have a basic knowledge about HTML and CSS
 
 ### Setup
 
-#### clone this project (using git clone https://github.com/bizip/hello-world.git) to your local computer and use telminal to navigate into the parent directory of this project.
+#### clone this project (using git clone https://github.com/bizip/la_medicale.git) to your local computer and use telminal to navigate into the parent directory of this project.
 
-### Install it is optional
+### Install
 
-#### Run npm install
+#### Run npm install (just for linters checking)
 
 ### Usage
 
-If you have live server visual studio code etension installed open this project with live server
+If you have live server visual studio code etension installed open this project with live server or open folder containing this project and then double click on index.html
 
 ## Authors
 
@@ -53,7 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone who gives me a feedback
 - Inspiration
 - etc
 
