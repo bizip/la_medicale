@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # POLYCLINIQUE LA MEDICALE (DR KANIMBA'S HOSPITAL
 
 >Established in 1994, Polyclinique La Medicale provides a wide range of healthcare services to our patients. Our team of highly skilled and experienced doctors and medical staff are dedicated to providing the best possible care to our patients.
